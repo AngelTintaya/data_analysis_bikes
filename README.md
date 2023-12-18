@@ -1,4 +1,4 @@
-# DA_Engineer_test
+# DATA ANALYSIS To London BIKES
 Code to use DuckDB, Pandas, and Plotly
 
 ### Steps
@@ -13,6 +13,14 @@ Github Setup
 
 Pre-requirements:
 - Install Extention: Jupyter Render, so Jupyter Notebook could render images
+- Add the following to README file:
+    '# MAC Files
+    .DS_Store
+
+    '# Database Files
+    *.db
+    *.db.wal
+
 
 Working Directory Setup
 1. Ensure you are located in development branch: ("git checkout development")
