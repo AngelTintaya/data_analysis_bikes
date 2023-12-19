@@ -28,11 +28,13 @@ Working Directory Setup
 3. Create your working branch from development ("git checkout -b setting_up_environment")
 4. Create the Virtual Environment ("virtualenv env")
 5. Activate Virtual Environment ("source env/bin/activate")
-6. Create requirements.txt (nbformat is necessary to render plotly)
+6. Create requirements.txt (nbformat is necessary to render plotly, statsmodel to use trend line)
     duckdb==0.9.2
     pandas==2.1.4
     plotly==5.18.0
     nbformat==5.9.2
+    kaggle==1.5.16
+    statsmodels==0.14.1
 7. Install requirements ("pip install -r requirements.txt")
 8. Create main.py and ensure it is connected with the Python environment
 9. Create main.ipynb and ensure it is connected with the Python environment ("Go UpRight and click on 'Select Kernel', choose our env")
